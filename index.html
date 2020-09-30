@@ -1,16 +1,75 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Nashville Software School</title>
-        <link rel="stylesheet" href="./styles/main.css">
-    </head>
 
-    <body>
-        <main id="container">
+<head>
+    <meta charset="utf-8">
+    <title>Nashville Software School</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
 
-        </main>
+<body>
+    <main id="container">
 
-        <script type="module" src="./scripts/main.js"></script>
-    </body>
+        <header>
+            <h1>Martin's Aquarium</h1>
+        </header>
+
+        <section class="fishList">
+            <h3>Fish List</h3>
+
+            <div class="fish">
+                <p>Name:</p>
+                <p class="fish__name">Bubba</p>
+                <img class="fish__image" src="https://cdn.mos.cms.futurecdn.net/hKm2MuLdDLubD6rgeYLeDM.jpg" alt="">
+                <p>Species:</p>
+                <p class="fish__species">Ambystoma mexicanum</p>
+                <p>Length:</p>
+                <p class="fish__length">9.1 inches</p>
+                <p>Harvest Location:</p>
+                <p class="fish__location">Xochimilco (near Mexico City)</p>
+                <p>Diet:</p>
+                <p class="fish__diet">Mollusks, worms, insect larvae, crustaceans, and some fish</p>
+            </div>
+        </section>
+
+        <article class="travel">
+            <section class="travel__quotes">
+                <h3>Travel Quotes</h3>
+                <div class="location">
+                    <p class="quote__text">"We wander for distraction, but we travel for fulfillment."</p>
+                    <p>Author:</p>
+                    <p class="quote__author">Hilaire Belloc</p>
+                    <p>Location:</p>
+                    <p class="quote__location">Xochimilco</p>
+                </div>
+
+            </section>
+
+            <section class="travel__locations">
+                <h3>Places to Go</h3>
+                <div class="location">
+                    <img class="location__image"
+                        src="https://i.pinimg.com/736x/4c/cc/3d/4ccc3df4ca897c1a12a0d8b7e5c7df64.jpg" alt="">
+                    <p>Name:</p>
+                    <p class="location__name">Xochimilco</p>
+                    <p>Location:</p>
+                    <p class="location__geo">Mexico City, Mexico</p>
+                </div>
+            </section>
+        </article>
+
+        <aside class="tipsList">
+            <h3>Care Tips</h3>
+            <div class="tip">
+                <p>Topic:</p>
+                <p class="tip__topic">Water Salination</p>
+                <p class="tip__text">No salty water!</p>
+            </div>
+        </aside>
+
+    </main>
+
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+
 </html>
