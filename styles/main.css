@@ -21,3 +21,19 @@ h1,h2,h3,h4,h5,h6 {
 img {
 	width: 50px;
 }
+
+.contentContainer {
+	display: flex;
+}
+
+.contentContainer__left {
+	flex: 3;
+}
+
+.contentContainer__right {
+	flex: 1;
+}
+
+section, article, aside {
+	border: 1px dashed blue;
+}
