@@ -34,10 +34,8 @@ img {
 
 .contentContainer__left {
 	flex: 3;
-	border: 1px solid #2a324b;
 }
 
 .contentContainer__right {
 	flex: 1;
-	border: 1px solid #2a324b;
 }
