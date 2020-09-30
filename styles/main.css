@@ -20,6 +20,10 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
+h1 {
+	text-align: center;
+}
+
 img {
 	width: 50px;
 }
@@ -30,12 +34,10 @@ img {
 
 .contentContainer__left {
 	flex: 3;
+	border: 1px solid #2a324b;
 }
 
 .contentContainer__right {
 	flex: 1;
-}
-
-section, article, aside {
-	border: 1px dashed blue;
+	border: 1px solid #2a324b;
 }
